@@ -31,5 +31,4 @@ def find_the_cheese(cheese_types)
     cheese_types.include?(type)
   else
     return nil
-  end
 end
