@@ -21,6 +21,7 @@ def long_planeteer_calls(planeteer_calls)
   if planeteer_calls.any? {|i| i.length > 4}
     return true
   else
+    return false
   end
 end
 
