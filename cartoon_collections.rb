@@ -32,7 +32,7 @@ def find_the_cheese(cheese_types)
   end
 end
 
-def find_the_cheese2(no_cheese)
+def find_the_cheese(no_cheese)
   cheese_types = no_cheese
    no_cheese.find do |type|
     no_cheese.include?(type)
