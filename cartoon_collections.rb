@@ -27,7 +27,9 @@ end
 
 def find_the_cheese(cheese_types)
   cheese_types = []
-   cheese_types.find do |type|
+   if cheese_types.find do |type|
     cheese_types.include?(type)
+  else 
+    return nil
   end
 end
